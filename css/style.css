@@ -2,8 +2,45 @@ body{
     background-image: url("../gray-geese.jpg");
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
 }
 #survey-form{
     background-color: rgba(26, 24, 24, 0.76);
-    width: 50%;
+    /* width: 50%; */
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+#name, #email, #number{
+    margin: 0px 10px 0px 10px;
+    width: 450px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+} 
+
+#name-label, #email-label, #number-label{
+    margin: 0px 10px;
+    color: white;
+}
+
+p, #dropdown, #married, #single, #countries{
+    margin: 0px 10px;
+}
+
+#dropdown{
+    padding: 10px;
+}
+
+#submit{
+    padding: 10px;
+    background: green;
+    color: white;
+    width: 490px;
+}
+
+#comment{
+    padding: 50px;
 }

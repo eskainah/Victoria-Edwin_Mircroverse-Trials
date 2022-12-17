@@ -12,31 +12,32 @@
     <p id="description">Thank you for taking the time to help us improve the platform</p>
    <form id="survey-form" action="">
       <label id="name-label" for="name">First name:</label> <br>
-      <input id="name" type="text" placeholder="Enter your name" required> <br>
+      <input id="name" type="text" placeholder="Enter your name" required> <br><br>
 
      <label id="email-label" for="email">Email:</label> <br>
-      <input id="email" type="email" pattern=".+@globex\.com" placeholder="Enter your email" required> <br>
+      <input id="email" type="email" pattern=".+@globex\.com" placeholder="Enter your email" required> <br><br>
 
       <label id="number-label" for="number">Number:</label> <br>
-      <input id="number" type="number" min="12" max="15" placeholder="Enter your Contact number"> <br>
+      <input id="number" type="number" min="12" max="15" placeholder="Enter your Contact number"> <br><br>
 
+      <p>Gender</p>
       <Select id="dropdown" name="gender">
         <option value="Male">Male</option>
         <option value="Female">Female</option> 
-      </Select> <br>
+      </Select> <br><br>
 
-      <p>Marital_status</p>
+      <p>Marital-status</p>
       <input type="radio" id="married" name="Marital_status" value="Married">
       <label for="Married">Married</label><br>
       <input type="radio" id="single" name="Marital_status" value="Single">
-      <label for="Single">Single</label><br>
+      <label for="Single">Single</label><br><br>
 
       <p>Favorite Countries</p>
-      <input type="checkbox" id="countries" name="Nigeria" value="Bike">
+      <input type="checkbox" id="countries" name="Nigeria" value="Nigeria">
       <label for="Nigeria"> Nigeria</label><br>
-      <input type="checkbox" id="countries" name="Liberia" value="Car">
+      <input type="checkbox" id="countries" name="Liberia" value="Liberia">
       <label for="Liberia"> Liberia</label><br>
-      <input type="checkbox" id="Countries" name="Ghana" value="Boat">
+      <input type="checkbox" id="countries" name="Ghana" value="Ghana">
       <label for="Ghana"> Ghana</label>
       <br><br>
 
@@ -45,7 +46,7 @@
       <textarea id="comment" name="comment" rows="4" cols="50"> 
       </textarea> <br>
 
-      <button id="sumbit">Submit</button>
+      <button id="submit">Submit</button>
    </form>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
